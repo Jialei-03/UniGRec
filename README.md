@@ -65,7 +65,7 @@ This repo expects dataset files in `./dataset/<DATASET>/`.
 
 - [Amazon Reviews](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)
 
-### Step 1) Build parquet data and item embeddings
+### 1) Build parquet data and item embeddings
 
 Run the notebook:
 
@@ -76,7 +76,7 @@ Outputs:
 - `train.parquet`, `valid.parquet`, `test.parquet`
 - `item_emb_td.parquet`
 
-### Step 2) Export SASRec CF embeddings
+### 2) Export SASRec CF embeddings
 
 Run the script:
 
