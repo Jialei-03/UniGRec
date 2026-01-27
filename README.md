@@ -65,17 +65,6 @@ This repo expects dataset files in `./dataset/<DATASET>/`.
 
 - [Amazon Reviews](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)
 
-Example (Beauty):
-
-```
-dataset/Beauty/
-  train.parquet
-  valid.parquet
-  test.parquet
-  item_emb_td.parquet
-  cf_emb_sasrec256.parquet
-```
-
 ### Step 1) Build parquet data and item embeddings
 
 Run the notebook:
@@ -96,6 +85,17 @@ Run the script:
 Outputs:
 
 - `cf_emb_sasrec256.parquet`
+
+Example (Beauty):
+
+```
+dataset/Beauty/
+  train.parquet
+  valid.parquet
+  test.parquet
+  item_emb_td.parquet
+  cf_emb_sasrec256.parquet
+```
 
 ---
 
