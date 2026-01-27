@@ -7,8 +7,8 @@ export PYTHONWARNINGS="ignore::FutureWarning,ignore::UserWarning"
 
 DATASET="Beauty"
 
-SASREC_CKPT="/NAS/xxx/RecBole-master/saved/SASRec-Dec-21-2025_18-22-00.pth"
-RECBOLE="/NAS/xxx/RecBole-master"
+SASREC_CKPT="/NAS/xxxx/RecBole-master/saved/SASRec-Dec-21-2025_18-22-00.pth"
+RECBOLE="/NAS/xxxx/RecBole-master"
 
 echo "[${DATASET}] Export SASRec CF embedding -> ${DATASET}/cf_emb_sasrec256.parquet"
 
