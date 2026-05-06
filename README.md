@@ -1,4 +1,4 @@
-# UniGRec: Unified Generative Recommendation with Soft Identifiers for End-to-End Optimization
+<img width="2048" height="768" alt="image" src="https://github.com/user-attachments/assets/00283fec-47b0-43cc-8b55-73a112baac4d" /># UniGRec: Unified Generative Recommendation with Soft Identifiers for End-to-End Optimization
 
 <a href="https://arxiv.org/abs/2601.17438"><img src="https://img.shields.io/badge/Paper-arXiv-red"></a>
 
@@ -63,7 +63,7 @@ This repo expects dataset files in `./dataset/<DATASET>/`.
 
 ### Data Source
 
-- [Amazon Reviews](https://jmcauley.ucsd.edu/data/amazon/index_2014.html)
+- [Amazon Reviews](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon/links.html)
 
 ### 1) Build parquet data and item embeddings
 
