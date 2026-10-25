@@ -272,7 +272,9 @@ class SoftVectorQuantizer(nn.Module):
         indices = soft_one_hot.argmax(dim=1)  # Index based on Softmax probability
         
         # 6. Compute loss (only diversity loss)
-        total_loss = 0.0
+        # Keep the zero-loss ablation path differentiable and compatible with
+        # ResidualVectorQuantizer, which stacks losses from all codebook layers.
+        total_loss = latent.new_zeros(())
         
         # Diversity loss (encourages more uniform codeword usage within batch, reduces collision rate)
         self.last_diversity_loss = None
